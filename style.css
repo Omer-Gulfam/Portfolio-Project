@@ -1,0 +1,162 @@
+:root{
+   --main-color: rgba(187, 107, 33, 0.7);
+}
+.sec1{
+    color: rgba(255, 255, 255, 0.801);
+}
+.icon-link:hover{
+    color: rgba(255, 166, 0, 0.7);
+}
+.colchange:hover{
+    color: rgba(236, 160, 17, 0.7);
+}
+.firstbutn{
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px 25px;
+}
+.firstbutn:hover{
+    color: var(--main-color);
+    background-color: white;
+}
+.centr{
+    margin-bottom: 260px;
+}
+.centr1{
+    margin-bottom: 180px;
+}
+.fntsize{
+    font-size: 100px;
+}
+.addanimation{
+    animation-name: animate;
+    animation-iteration-count: 3;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-delay: 0.3s;
+}
+@keyframes animate{
+    100%{
+       right: 20%;
+    }
+}
+.btun2:hover {
+    color: black;
+    background-color: white;
+}
+.formdd{
+    width: 200px;
+    height: 45px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 46px;
+}
+input{
+    padding: 8px;
+}
+#btn{
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+.img{
+    
+    height: 100%;
+    width: 130%;
+    margin-left: -12px;
+}
+.bgimg{
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(Images/attorneys.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    width: 230px;
+}
+.iconfts{
+   padding: 15px;
+}
+.bttn{
+    color: white;
+    background-color: var(--main-color);
+}
+.bttn:hover{
+    color: black;
+    background-color: white;
+}
+.bttn2{
+    color: white;
+    background-color: black;
+}
+.bttn2:hover{
+    color: var(--main-color);
+    background-color: white;
+}
+li::before{
+    content: ". ";
+    color: var(--main-color);
+}
+a{
+    line-height: 35px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.iconcol{
+    font-size: 90px;
+    color: var(--main-color);
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.box1{
+    background-color: rgba(128, 128, 128, 0.2);
+    
+}
+.box1:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.heading1{
+    margin: 50px;
+    padding: 40px 20px;
+    line-height: 55px;
+}
+.marg{
+    margin-left: 580px;
+    font-weight: 500;
+}
+.icon2{
+    color: white;
+    border: 1px solid white;
+    padding: 8px 8px;
+}
+.bgsize{
+    margin-top: 3rem;
+    height: 800px;
+}
+.bgpic{
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+    
+.bgpic{
+    background-color: rgba(0, 0, 0, 0.363);
+    background-image: url(Images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    opacity: 0.6;
+    background-blend-mode: multiply;
+}
+.smalldiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 1100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 70px auto;
+    padding: 50px;
+}
